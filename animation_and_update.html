@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1>Animated Text</h1>
+<div id = "viz"></div> 
+<div id="type_text", style="white-space: pre-line"></div>
+
+
+
+<h1>Dynamic html</h1>
+<div id="q1">
+  <p>
+    1. Are you ready to Change?
+  </p>
+  <bri>
+  <input type="radio" id="q1yes" name="q1" value="Yes" class="check_in">Yes
+  <br>
+  <input type="radio" id="q1no" name="q1" value="No" class="check_in">No
+  <br>
+
+</div>
+
+<br>
+<div id="type_text2"></div> 
+</body>
+
+
+<script>
+var text_v1 = 'This is skilled \n reflection.';
+var text_v2 = 'This is <strike>skilled</strike> \n reflection.';
+var text_v3 = 'This is \n reflection.';
+
+var array_v1 = text_v1.split("");
+var text_speed = 30;
+var step_dur = 200;
+var text1_dur = array_v1.length*text_speed ;
+
+var loopTimer;
+function textprint_1() {
+  if(array_v1.length > 0) {
+    document.getElementById("type_text").innerHTML += array_v1.shift();
+    } else {
+      clearTimeout(loopTimer);
+      return false;
+      }
+    loopTimer = setTimeout('textprint_1()',text_speed);
+    }
+
+var update_text = function(new_text) {
+document.getElementById("type_text").innerHTML = new_text
+}
+
+textprint_1();
+setTimeout('update_text(text_v2)',(text1_dur+step_dur)); 
+setTimeout('update_text(text_v3)',(text1_dur+step_dur*2)); 
+
+//q2 if q1-yes
+document.getElementById('q1yes').onclick = function() {
+  document.getElementById("type_text2").innerHTML += '2. Tell me why: <input type="text" id="q1yes_why"> <input id="q2_sub" type="button" name="q2_sub" value="submit" /><br>'
+  document.getElementById("q1no").disabled = true;
+};
+
+//q2 if q1-no
+document.getElementById('q1no').onclick = function() {
+  document.getElementById("type_text2").innerHTML += '2. Tell me why not: <input type="text" id="q1no_why"> <input id="q2_sub" type="button" name="q2_sub" value="submit" /><br>'
+  document.getElementById("q1yes").disabled = true;
+};
+
+</script>
