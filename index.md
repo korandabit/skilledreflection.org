@@ -1,33 +1,25 @@
-## skilled reflection  
+## About Skilled Reflection
 
-How would your life look
-if you put it on paper?
+You care about some things more than others, and do some things more than others.
 
-How do you  
-- get what you need and want?
-- clarify and direct your life?
+Skilled reflection is an attempt to clarify how your actions and values relate to each other, and make clear next-steps toward who you imagine yourself being.
 
-With better words.
+Skilled Reflection is a Student Organization at the University of Wisconsin-Madison that meets once a week to write privately for about an hour.
 
-The *right* words will change  
-  - your actions and 
-  - your life.
+Each session focuses on specific themes related to identity, goals, and being a student, with prompts for you to reflect and write on.
 
-It's time to live a better life.  
-It starts with your words.
+More than anything, the time and writing are commitments to better navigate our complex lives. To learn more, read about the orginization's start and mission in the [Psychology Department Bulletin](https://psych.wisc.edu/news/when-personal-experience-meets-psychology-michael-koranda/).
 
-## [Spring 2020 sessions](club_meetings.md)
+  
+## Okay, I'm curious.
 
+1. Here's what happens at [every session](every_session.md).  
+2. Try to [describe yourself](self250.md) in 250 words.  
+3. Learn more about [Skilled Reflection](about.md).  
 
-## [you in 250](self250.md)
-What are the 250 words that provide the best description of you? 
+## Now what?  
 
-[how to do your first skilled reflection](self250.md)
-
-
-## Contact 
-
-Contact: 
-skilledreflection at gmail dot com  
-Instagram: [@skilledreflection](https://www.instagram.com/skilledreflection/)
-
+4. Find out about upcoming [Fall 2020 sessions](club_meetings.md).
+5. You can't wait any longer, so 
+  a. go ahead and follow us on Instagram [@skilledreflection](https://www.instagram.com/skilledreflection/), or  
+  b. email us at skilledreflection at gmail dot com  
